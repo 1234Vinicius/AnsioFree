@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+
+        <ImageView
+            android:layout_width="372dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ansiedade" />
+
+        <Button
+        android:id="@+id/btnVideos"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:text="Vídeos"
+        android:textSize="20dp"
+        android:drawableRight="@drawable/ic_baseline_ondemand_video_24"
+        android:drawableTint="@color/colorPrimary"
+        android:paddingRight="10dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#FFF"
+        android:textAllCaps="false"/>
+
+
+        <Button
+            android:id="@+id/btnExercicios"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:text="Exercícios"
+            android:textSize="20dp"
+            android:drawableRight="@drawable/ic_baseline_emoji_people_24"
+            android:drawableTint="@color/colorPrimary"
+            android:paddingRight="10dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#FFF"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btnInformacoes"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:text="Informações"
+            android:textSize="20dp"
+            android:drawableRight="@drawable/ic_baseline_info_24"
+            android:drawableTint="@color/colorPrimary"
+            android:paddingRight="10dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#FFF"
+            android:textAllCaps="false"/>
+
+
+        <Button
+            android:id="@+id/btnPerguntas"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:text="Perguntas"
+            android:textSize="20dp"
+            android:drawableRight="@drawable/ic_baseline_question_answer_24"
+            android:drawableTint="@color/colorPrimary"
+            android:paddingRight="10dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#FFF"
+            android:textAllCaps="false"/>
+
+
+        <Button
+            android:id="@+id/btnFrases"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:text="Frases Motivacionais"
+            android:textSize="20dp"
+            android:drawableRight="@drawable/ic_baseline_email_24"
+            android:drawableTint="@color/colorPrimary"
+            android:paddingRight="10dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#FFF"
+            android:textAllCaps="false"/>
+
+
+        <Button
+            android:id="@+id/btnPrecisoMeAcalmar"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:text="Preciso Me Acalmar"
+            android:textSize="20dp"
+            android:drawableRight="@drawable/ic_baseline_warning_24"
+            android:drawableTint="@color/colorPrimary"
+            android:paddingRight="10dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/colorAccent"
+            android:textColor="#FFF"
+            android:textAllCaps="true"/>
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
